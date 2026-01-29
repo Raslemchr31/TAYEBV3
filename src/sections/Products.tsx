@@ -89,6 +89,7 @@ export default function Products() {
       shippingOption: ''
     });
     document.body.style.overflow = 'hidden';
+    fbq('track', 'ViewContent', { content_ids: [product.id], content_type: 'product', currency: 'DZD', value: product.price });
   };
 
   const closeModal = () => {

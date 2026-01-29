@@ -57,6 +57,7 @@ export default function Footer() {
               </a>
               <a
                 href={businessInfo.whatsapp}
+                onClick={() => fbq('track', 'Contact')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 rounded-full bg-slate-800 flex items-center justify-center hover:bg-green-600 transition-colors"

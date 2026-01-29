@@ -91,6 +91,7 @@ export default function Contact() {
             {/* WhatsApp */}
             <a
               href={businessInfo.whatsapp}
+              onClick={() => fbq('track', 'Contact')}
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-4 p-6 bg-gradient-to-br from-green-50 to-green-100/50 rounded-2xl hover:shadow-lg transition-shadow group"
@@ -173,6 +174,7 @@ export default function Contact() {
                 </a>
                 <a
                   href={businessInfo.whatsapp}
+              onClick={() => fbq('track', 'Contact')}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-14 h-14 rounded-full bg-green-500 flex items-center justify-center hover:scale-110 hover:rotate-6 transition-all shadow-lg"
@@ -190,6 +192,7 @@ export default function Contact() {
               </p>
               <a
                 href={businessInfo.whatsapp}
+              onClick={() => fbq('track', 'Contact')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 bg-white text-blue-600 px-8 py-3 rounded-xl font-bold hover:bg-blue-50 transition-colors"

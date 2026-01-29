@@ -134,6 +134,7 @@ export default function Hero() {
             <div ref={ctaRef} className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start mb-10">
               <a
                 href={businessInfo.whatsapp}
+                onClick={() => fbq('track', 'Contact')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center justify-center gap-2 text-lg"

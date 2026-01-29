@@ -78,6 +78,7 @@ export default function Navigation() {
             <div className="hidden lg:block">
               <a
                 href={businessInfo.whatsapp}
+                onClick={() => fbq('track', 'Contact')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary flex items-center gap-2 text-sm py-2 px-4"
@@ -162,6 +163,7 @@ export default function Navigation() {
             <div className="mt-10">
               <a
                 href={businessInfo.whatsapp}
+                onClick={() => fbq('track', 'Contact')}
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn-primary w-full flex items-center justify-center gap-2"
