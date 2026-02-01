@@ -94,7 +94,7 @@ export const products: Product[] = [
     id: 'table-large',
     name: 'Cutting Table 120×200',
     nameAr: 'طاولة تفصيل 120×200',
-    price: 22000,
+    price: 30000,
     description: 'Same Plus system with larger dimensions 120×200 cm. Comes with 8 wheels for extra stability and weight capacity.',
     descriptionAr: 'نفس نظام الطاولة بلس مع أبعاد أكبر 120×200 سم. تأتي بـ 8 عجلات لثبات إضافي وقدرة تحمل أكبر.',
     images: [
